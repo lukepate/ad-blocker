@@ -4,6 +4,6 @@ chrome.webRequest.onBeforeRequest.addListener(
 		console.log("blocking:", details.url);
 		return {cancel: true };
 	},
-	{urls: ["*://*.youtube.com/"]},
+	{urls: ["*://*.youtube.com/", "*://*.google.com/"]},
 	["blocking"]
 );

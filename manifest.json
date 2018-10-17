@@ -1,5 +1,5 @@
 {
-  "name": "dyi-adblocker",
+  "name": "Luke-pate",
   "version": "1.0",
   "description": "A simple adblocker",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
